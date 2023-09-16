@@ -1,0 +1,48 @@
+<?php
+ob_start();
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <form action="" method="get" accept-charset="utf-8">
+      <h1 class="main">Sign up</h1>
+      <div class="form">
+        <input type="text" name="name" id="username" value="" autocomplete="off" required />
+        <label for="name" class="label-name">
+          <span class="content-name">Username</span>
+        </label>
+      </div>
+      <div class="form">
+        <input type="password" name="name" id="password" value="" required />
+        <label for="name" class="label-name">
+          <span class="content-name">Password</span>
+        </label>
+      </div>
+      <div class="form">
+        <input type="password" name="name" id="confirm" value="" required />
+        <label for="name" class="label-name">
+          <span class="content-name">Confirm password</span>
+        </label>
+      </div>
+      <input type="submit" name="submit" id="submit" value="Submit" />
+      <a href="/signups.html">Sign in</a>
+    </form>
+  </section>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>
